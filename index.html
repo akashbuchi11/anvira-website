@@ -6,7 +6,7 @@
 <title>Anvira Agro Proteins</title>
 <meta name="description" content="Anvira trades protein meals, de-oiled cakes and edible oils across India, connecting processing plants with feed, oil and food businesses.">
 <meta name="theme-color" content="#064C2D">
-<link rel="icon" href="assets/anvira-mark.webp" type="image/webp">
+<link rel="icon" href="anvira-mark.webp" type="image/webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
@@ -153,7 +153,7 @@ h3{font-size:var(--fs-h3);font-weight:720;line-height:1.2}
 .rise-2{animation-delay:.1s}.rise-3{animation-delay:.2s}.rise-4{animation-delay:.3s}
 @keyframes rise{from{transform:translateY(14px);opacity:.35}to{transform:none;opacity:1}}
 @media (max-width:960px){.hero-grid{grid-template-columns:1fr}.collage{max-width:640px}}
-@media (max-width:560px){.assure{grid-template-columns:1fr;gap:12px}.collage-card{max-width:62%;padding:9px 12px 9px 9px}.collage-card img{width:26px}.collage-card span{font-size:.78rem}}
+@media (max-width:560px){.assure{grid-template-columns:1fr;gap:12px}.collage{overflow:visible;border-radius:0;background:transparent}.collage > img{border-radius:20px;background:var(--collage-plate)}.collage-card{position:static;max-width:none;margin-top:12px;border-color:var(--line);box-shadow:none}}
 
 /* commodities */
 .explorer-bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:14px;margin-bottom:24px}
@@ -459,9 +459,9 @@ dialog.c-dialog::backdrop{background:rgba(4,24,14,.55);backdrop-filter:blur(3px)
 <header class="site-header" id="top">
   <div class="wrap header-row">
     <a class="brand" href="#top" aria-label="Anvira home">
-      <img class="brand-mark" src="assets/anvira-mark.webp" alt="" width="363" height="252">
+      <img class="brand-mark" src="anvira-mark.webp" alt="" width="363" height="252">
       <span class="brand-text">
-        <img class="brand-word" src="assets/anvira-wordmark.webp" alt="Anvira" width="574" height="92">
+        <img class="brand-word" src="anvira-wordmark.webp" alt="Anvira" width="574" height="92">
         <span class="legal-line" data-legal-line>Agro Proteins LLP</span>
       </span>
     </a>
@@ -508,8 +508,8 @@ dialog.c-dialog::backdrop{background:rgba(4,24,14,.55);backdrop-filter:blur(3px)
     </div>
 
     <figure class="collage rise rise-2">
-      <img src="assets/hero-collage.webp" width="1400" height="1045" alt="Soybeans, groundnuts, mustard seed and edible oil beside a loaded truck at a processing plant">
-      <figcaption class="collage-card"><img src="assets/anvira-mark.webp" alt=""><span><small>Across India</small>Feed for its farms. Oil for its kitchens.</span></figcaption>
+      <img src="hero-collage.webp" width="1400" height="1045" alt="Soybeans, groundnuts, mustard seed and edible oil beside a loaded truck at a processing plant">
+      <figcaption class="collage-card"><img src="anvira-mark.webp" alt=""><span><small>Across India</small>Feed for its farms. Oil for its kitchens.</span></figcaption>
     </figure>
   </div>
 </section>
@@ -538,7 +538,7 @@ dialog.c-dialog::backdrop{background:rgba(4,24,14,.55);backdrop-filter:blur(3px)
 <dialog class="c-dialog" id="c-dialog" aria-labelledby="dlg-title">
   <button class="dlg-close" type="button" data-close aria-label="Close"><svg class="icon"><use href="#i-close"/></svg></button>
   <div class="dlg-grid">
-    <div class="dlg-media"><img id="dlg-img" src="assets/soya-doc.webp" alt=""></div>
+    <div class="dlg-media"><img id="dlg-img" src="soya-doc.webp" alt=""></div>
     <div class="dlg-body">
       <p class="c-type" id="dlg-type"></p>
       <h3 id="dlg-title"></h3>
@@ -579,7 +579,7 @@ dialog.c-dialog::backdrop{background:rgba(4,24,14,.55);backdrop-filter:blur(3px)
       </div>
       <div class="link" aria-hidden="true"><span class="link-label" data-commercial="Purchase" data-physical="Dispatch planning">Purchase</span><span class="link-line"></span></div>
       <div class="node n-anvira">
-        <span class="node-icon"><img src="assets/anvira-mark.webp" alt=""></span>
+        <span class="node-icon"><img src="anvira-mark.webp" alt=""></span>
         <strong>Anvira</strong>
         <span class="sub" id="anvira-role">Buys and resells in its own name, or arranges the deal between both sides</span>
       </div>
@@ -623,7 +623,7 @@ dialog.c-dialog::backdrop{background:rgba(4,24,14,.55);backdrop-filter:blur(3px)
     </div>
     <div class="receipt-wrap">
       <div class="receipt" role="group" aria-label="What one delivered price covers">
-        <div class="receipt-head"><img src="assets/anvira-mark.webp" alt=""><div><b>Your delivered price</b><small>What one rate per MT covers</small></div></div>
+        <div class="receipt-head"><img src="anvira-mark.webp" alt=""><div><b>Your delivered price</b><small>What one rate per MT covers</small></div></div>
         <ul class="receipt-list">
           <li><span>Product, to the agreed grade</span><em>Included</em></li>
           <li><span>Truck and freight to your site</span><em>Included</em></li>
@@ -707,7 +707,7 @@ dialog.c-dialog::backdrop{background:rgba(4,24,14,.55);backdrop-filter:blur(3px)
       </dl>
     </div>
     <div class="about-side">
-      <figure class="field"><img src="assets/field.webp" alt="Green farmland with trees at sunrise" width="808" height="288"><figcaption><svg class="icon"><use href="#i-pin"/></svg><span><span data-city-short>Hyderabad, Telangana</span> · trading across India</span></figcaption></figure>
+      <figure class="field"><img src="field.webp" alt="Green farmland with trees at sunrise" width="808" height="288"><figcaption><svg class="icon"><use href="#i-pin"/></svg><span><span data-city-short>Hyderabad, Telangana</span> · trading across India</span></figcaption></figure>
       <div class="values">
         <div class="value"><h3><svg class="icon"><use href="#i-shield"/></svg>Quality before price</h3><p>We look at the grade and what the buyer needs it for, not just the quoted rate.</p></div>
         <div class="value"><h3><svg class="icon"><use href="#i-users"/></svg>Respect for brokers</h3><p>Referrals and long relationships carry real weight in this trade, and we treat them that way.</p></div>
@@ -839,7 +839,7 @@ dialog.c-dialog::backdrop{background:rgba(4,24,14,.55);backdrop-filter:blur(3px)
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
-        <div><span class="plate"><img src="assets/anvira-logo-stacked.webp" alt="Anvira" width="574" height="357"><span class="legal-line" data-legal-line>Agro Proteins LLP</span></span></div>
+        <div><span class="plate"><img src="anvira-logo-stacked.webp" alt="Anvira" width="574" height="357"><span class="legal-line" data-legal-line>Agro Proteins LLP</span></span></div>
         <p class="tagline" data-tagline>Nourishing a better tomorrow</p>
         <p>Trading protein meals, de-oiled cakes and edible oils across India.</p>
       </div>
@@ -898,7 +898,7 @@ const SITE = {
     {
       id: "soya-doc", enabled: true, type: "doc", typeLabel: "De-oiled cake",
       name: "Soya DOC", aka: "Soybean meal · Soya de-oiled cake",
-      image: "assets/soya-doc.webp", alt: "Soybeans, the raw material for Soya DOC",
+      image: "soya-doc.webp", alt: "Soybeans, the raw material for Soya DOC",
       summary: "The protein-rich meal left after most of the oil is extracted from soybeans. A core protein source in animal feed.",
       uses: "Poultry and cattle feed, and compound feed manufacturing.",
       buyers: ["Poultry feed", "Cattle feed", "Feed mills"],
@@ -909,7 +909,7 @@ const SITE = {
     {
       id: "groundnut-doc", enabled: true, type: "doc", typeLabel: "De-oiled cake",
       name: "Groundnut DOC", aka: "Groundnut meal · Groundnut extraction",
-      image: "assets/groundnut-doc.webp", alt: "Groundnuts in shell",
+      image: "groundnut-doc.webp", alt: "Groundnuts in shell",
       summary: "The meal that remains after groundnut oil is extracted. Its use depends closely on grade and aflatoxin levels.",
       uses: "Selected cattle and poultry feed formulations, depending on grade.",
       buyers: ["Cattle feed", "Poultry feed"],
@@ -920,7 +920,7 @@ const SITE = {
     {
       id: "mustard-doc", enabled: true, type: "doc", typeLabel: "De-oiled cake",
       name: "Mustard DOC", aka: "Rapeseed meal · Mustard de-oiled cake",
-      image: "assets/mustard-doc.webp", alt: "Mustard seeds with mustard flowers",
+      image: "mustard-doc.webp", alt: "Mustard seeds with mustard flowers",
       summary: "The meal left after mustard or rapeseed oil is extracted, used in feed within agreed nutritional limits.",
       uses: "Cattle feed and other feed applications, subject to specification.",
       buyers: ["Cattle feed", "Feed mills"],
@@ -931,7 +931,7 @@ const SITE = {
     {
       id: "dorb", enabled: true, type: "doc", typeLabel: "De-oiled cake",
       name: "DORB", aka: "De-oiled rice bran",
-      image: "assets/dorb.webp", alt: "De-oiled rice bran",
+      image: "dorb.webp", alt: "De-oiled rice bran",
       summary: "What remains after oil is extracted from rice bran. A widely used ingredient in compound feed.",
       uses: "Cattle and poultry feed formulations, depending on specification.",
       buyers: ["Cattle feed", "Poultry feed", "Feed mills"],
@@ -942,7 +942,7 @@ const SITE = {
     {
       id: "crude-oil", enabled: true, type: "oil", typeLabel: "Edible oil",
       name: "Crude edible oils", aka: "Crude soybean oil and other crude vegetable oils",
-      image: "assets/crude-oil.webp", alt: "Crude edible oil in a glass bowl",
+      image: "crude-oil.webp", alt: "Crude edible oil in a glass bowl",
       summary: "Oil extracted from oilseeds before full refining. Bought by refineries and processors for further processing.",
       uses: "Refining and further processing. Oil type is confirmed for each offer.",
       buyers: ["Refineries", "Oil processors"],
@@ -953,7 +953,7 @@ const SITE = {
     {
       id: "refined-oil", enabled: true, type: "oil", typeLabel: "Edible oil",
       name: "Refined edible oils", aka: "Refined vegetable oils",
-      image: "assets/refined-oil.webp", alt: "Refined edible oil in glass bowls",
+      image: "refined-oil.webp", alt: "Refined edible oil in glass bowls",
       summary: "Oils processed to their intended commercial specification for food use.",
       uses: "Food businesses, distributors and wholesalers. Oil type, packing and brand are confirmed for each offer.",
       buyers: ["Food industry", "Distributors", "Wholesalers"],
